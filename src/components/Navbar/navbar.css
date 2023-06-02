@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #14181d;
+  background: #12141E;
   width: 100%;
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(2, 15, 29, 0.242);
@@ -19,7 +19,7 @@
 
   .header .navBar {
     position: absolute;
-    background: #14181d;
+    background: #12141E;
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;

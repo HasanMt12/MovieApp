@@ -19,11 +19,11 @@ const Navbar = () => {
   };
 
   return (
-    <section className="mt-2">
-      <header className="header ">
+    <section className="lg:mt-4 mt-1">
+      <header className = "header #12141E drop-shadow-lg shadow-gray-400" >
         <div className="">
           <a href=""className = "tracking-[2px] text-[#c11253]" >
-         <span className="text-4xl  ">C</span>ineflex
+         <span className="lg:text-4xl text-2xl ">C</span>ineflex
          
           </a>
         </div>
