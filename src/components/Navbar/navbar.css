@@ -1,0 +1,161 @@
+.header {
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #14181d;
+  width: 100%;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(2, 15, 29, 0.242);
+  z-index: 1000;
+}
+
+
+@media screen and (max-width: 768px) {
+  .header .navLogo {
+    width: 220px;
+    height: auto;
+  }
+
+  .header .navBar {
+    position: absolute;
+    background: #14181d;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    width: 80%;
+    border-radius: 1rem;
+    top: -500rem;
+    left: 50%;
+    padding: 1rem;
+    transform: translate(-50%);
+    z-index: 2000;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+    transition: 0.3s ease-in-out;
+  }
+
+  .header .navBar .navLists {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem 0;
+  }
+
+  .header .navBar .navLists .navItem {
+    padding: 0.5rem 0;
+  }
+
+  .header .navBar .navLists .navItem .navLink {
+    color: #C11119;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .header .navBar .navLists .navItem .navLink:hover {
+    color: whitesmoke;
+  }
+
+
+
+
+  .header .navBar .closeNavbar {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    color: #C11119;
+  }
+
+  .header .navBar .closeNavbar:hover {
+    color: whitesmoke;
+  }
+
+  .header .activeNavbar {
+    top: 7rem;
+  }
+}
+
+.header .toggleNavbar .icon {
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+.header .toggleNavbar:hover.icon {
+  color: #C11119;
+}
+
+@media screen and (min-width: 769px) {
+
+  .toggleNavbar,
+  .closeNavbar {
+    display: none;
+  }
+
+  .header {
+    padding: 1.5rem 2rem;
+  }
+
+  .header .navBar .navLists {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .header .navBar .navLists .navItem {
+    padding: 1rem;
+  }
+
+  .header .navBar .navLists .navItem .navLink {
+    color: #C11119;
+    padding: 0 0.45rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .header .navBar .navLists .navItem .navLink:hover {
+    color: whitesmoke;
+  }
+
+}
+
+@media screen and (min-width: 960px) {
+  .header .navBar .navLists .navItem {
+    padding: 0 0.7rem;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .header {
+    padding: 0.7rem 8.5rem;
+  }
+}
+
+/*# sourceMappingURL=navbar.css.map */
+
+a {
+  text-transform: uppercase;
+  
+  transition: all 0.7s ease-in-out;
+  position: relative;
+  &::before   
+ 
+{
+    content: attr(data-item);
+    transition: all 1s ease-in-out;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+  }
+
+  &:hover {
+    &::before {
+      width: 100%;
+    }
+  }
+}
