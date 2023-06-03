@@ -5,7 +5,10 @@ import {  RouterProvider, createBrowserRouter } from 'react-router-dom'
 import * as RoutePath from './routes/route'
 import App from './App'
 import { Home } from './pages/Home-pages/Home'
-
+import New from './pages/New'
+import Upcoming from './pages/Upcoming'
+import Recommended from './pages/Recommended'
+import Login from '../src/components/Login/Login'
 
 
 
@@ -21,7 +24,7 @@ const route=createBrowserRouter([
     },
     {
       path:RoutePath.NEW,
-      element:<NEW/>,
+      element:<New/>,
     },
     {
       path:RoutePath.UPCOMING,
