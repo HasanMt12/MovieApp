@@ -5,7 +5,12 @@ import { TbGridDots } from "react-icons/tb";
 
 import { FaUserCircle } from "react-icons/fa";
 
+import * as RoutePath from '../../routes/route'
+
 import "./navbar.css";
+
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   const [active, setActive] = useState("navBar");
   
@@ -22,39 +27,39 @@ const Navbar = () => {
     <section className="lg:mt-4 mt-1">
       <header className = "header #12141E drop-shadow-lg shadow-gray-400" >
         <div className="">
-          <a href=""className = "tracking-[2px] text-[#c11253]" >
+          <Link to={RoutePath.DASHBOARD } href=""className = "tracking-[2px] text-[#c11253]" >
          <span className="lg:text-4xl text-2xl ">C</span>ineflex
          
-          </a>
+          </Link >
         </div>
         <div className={active}>
           <ul className="navLists flex">
             <li className="navItem ">
-              <a href="" className="navLink">
+              <Link to={ RoutePath.DASHBOARD} href="" className="navLink">
                 home
-              </a>
+              </Link >
             </li>
             <li className="navItem ">
-              <a href="" className="navLink">
+              <Link to={ RoutePath.NEW} href="" className="navLink">
                 New 
-              </a>
+              </Link >
             </li>
 
             <li className="navItem ">
-              <a href="" className="navLink">
+              <Link to={ RoutePath.RECOMMENDED} href="" className="navLink">
                 Recommended
-              </a>
+              </Link >
             </li>
 
             <li className="navItem ">
-              <a href="" className="navLink">
+              <Link to={RoutePath.UPCOMING } href="" className="navLink">
                 Upcoming
-              </a>
+              </Link >
             </li>
             <li className = "navItem a " >
-              <a href="" className="navLink">
+              <Link to={ RoutePath.LOGIN} href="" className="navLink">
                 Login
-              </a>
+              </Link >
             </li>
 
             <li className="navItem ">
