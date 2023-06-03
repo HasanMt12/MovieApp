@@ -4,7 +4,7 @@ import './index.css'
 import {  RouterProvider, createBrowserRouter } from 'react-router-dom'
 import * as RoutePath from './routes/route'
 import App from './App'
-import { Home } from './pages/Home'
+import { Home } from './pages/Home-pages/Home'
 
 
 
@@ -21,7 +21,7 @@ const route=createBrowserRouter([
     },
     {
       path:RoutePath.NEW,
-      element:<New/>,
+      element:<NEW/>,
     },
     {
       path:RoutePath.UPCOMING,

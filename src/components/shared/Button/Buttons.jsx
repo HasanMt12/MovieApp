@@ -1,4 +1,5 @@
 
+// eslint-disable-next-line react/prop-types
 const PrimaryButton = ({children}) => {
     return (
         <button className="rounded-md px-3.5 py-2 m-1 overflow-hidden relative group cursor-pointer border-2 font-medium border-red-600/80 text-red-600/80 text-white">
