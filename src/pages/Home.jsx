@@ -1,6 +1,6 @@
 import useTitle from "../hooks/useTitle";
 
-export const Home = () => {
+ const Home = () => {
 	useTitle('home')
 	return (
 		<div>
@@ -9,3 +9,4 @@ export const Home = () => {
 	);
 }
 
+export default Home;
