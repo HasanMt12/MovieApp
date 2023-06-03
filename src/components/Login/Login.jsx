@@ -9,7 +9,7 @@ const Login = () => {
 			}}>
 			<source src={movie} type="video/mp4" />
 		</video>
-		<div className="grid grid-cols-3 gap-2" style={{backgroundClip:'url("/clip.mp4")',height:'600px',width:'100%' }}>
+		<div className="grid lg:grid-cols-3 gap-2 md:grid-cols-1" style={{backgroundClip:'url("/clip.mp4")',height:'600px',width:'100%' }}>
 				<LoginForm/>
 		</div>
 		</>
