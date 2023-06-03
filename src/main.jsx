@@ -9,6 +9,7 @@ import New from './pages/New'
 import Upcoming from './pages/Upcoming'
 import Recommended from './pages/Recommended'
 import Login from '../src/components/Login/Login'
+import RegistrationForm from './pages/RegistrationForm'
 
 
 
@@ -37,8 +38,13 @@ const route=createBrowserRouter([
     {
       path:RoutePath.LOGIN,
       element:<Login/>,
-
+    
+    },
+    {
+      path:RoutePath.REG,
+      element:<RegistrationForm/>
     }
+
   ]
 }
 
