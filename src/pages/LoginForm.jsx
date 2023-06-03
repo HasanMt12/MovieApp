@@ -28,7 +28,7 @@ const LoginForm = ({handleClick}) => {
             placeholder="Enter your password"
                required
           />
-	<p onClick={()=>handleClick(0)} className="cursor-pointer text-md font-semibold inline-block align-baseline font-bold text-sm text-lime-400 hover:text-blue-800" >New to site? Register </p>
+	<p onClick={()=>handleClick(0)} className="cursor-pointer text-md font-semibold inline-block align-baseline  text-sm text-lime-400 hover:text-blue-800" >New to site? Register </p>
         </div>
 	
         <div className="flex items-center justify-between">
