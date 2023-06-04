@@ -1,9 +1,22 @@
+
 import useTitle from "../../hooks/useTitle";
-import LoginForm from "../../pages/LoginForm";
+
+
 import movie from '/clip.mp4'
+import { useState } from "react";
+import LoginForm from "../../pages/LoginForm";
+import RegistrationForm from "../../pages/RegistrationForm";
 
 const Login = () => {
+
 	useTitle("Login")
+
+	const [showComponentOne, setShowComponentOne] = useState(true);
+
+      const handleClick = () => {
+      setShowComponentOne(!showComponentOne);
+  };
+
 	return (
 		<>
 		<video autoPlay loop muted style={{
@@ -11,8 +24,12 @@ const Login = () => {
 			}}>
 			<source src={movie} type="video/mp4" />
 		</video>
-		<div className="grid lg:grid-cols-3 lg:pl-20 lg:pt-20 gap-2 md:grid-cols-1 " style={{backgroundClip:'url("/clip.mp4")',height:'600px',width:'100%' }}>
-				<LoginForm/>
+
+		<div className="grid lg:grid-cols-3 gap-2 md:grid-cols-1" style={{backgroundClip:'url("/clip.mp4")',height:'600px',width:'100%' }}>
+				<div>
+					{showComponentOne ? <LoginForm handleClick={handleClick}/> : <RegistrationForm handleClick={handleClick} />}
+				</div>
+
 		</div>
 		</>
 	);

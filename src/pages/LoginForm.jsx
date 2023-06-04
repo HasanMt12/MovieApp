@@ -1,5 +1,6 @@
 
-const LoginForm = () => {
+const LoginForm = ({handleClick}) => {
+
 	return (
 		
 			<form className=" bg-transparent shadow-md shadow-gray-500 rounded px-8 pt-14 pb-8 mb-4">
@@ -27,7 +28,7 @@ const LoginForm = () => {
             placeholder="Enter your password"
                required
           />
-	<p className="text-md font-semibold inline-block align-baseline font-bold text-sm text-lime-400 hover:text-blue-800" >New to site? Register </p>
+	<p onClick={()=>handleClick(0)} className="cursor-pointer text-md font-semibold inline-block align-baseline  text-sm text-lime-400 hover:text-blue-800" >New to site? Register </p>
         </div>
 	
         <div className="flex items-center justify-between">
