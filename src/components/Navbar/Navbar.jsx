@@ -24,8 +24,15 @@ const Navbar = () => {
   };
 
   return (
-    <section className="">
-      <header className = "header #12141E drop-shadow-lg md:z-2 sm-z-2 shadow-gray-400" >
+    <section 
+    style = {
+      {
+        position: 'sticky',
+        top: 0,
+        zIndex: 90
+      }
+    } >
+      <header className = "header #12141E drop-shadow-lg  shadow-gray-400" >
         <div className="">
           <Link to={RoutePath.DASHBOARD } href=""className = "tracking-[2px] text-[#c11253]" >
          <span className="lg:text-4xl text-2xl ">C</span>ineflex

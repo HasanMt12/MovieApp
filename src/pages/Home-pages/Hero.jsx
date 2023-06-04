@@ -28,8 +28,8 @@ const Hero = () => {
         fetchData();
     }, []);
     return (
-        <div className="cover">
-              <Swiper className='w-[80%] mx-auto sm-z-1'
+        <div className="cover ">
+              <Swiper className='w-[80%] mx-auto'
           slidesPerview={1.2}
            spaceBetween={10}
            breakpoints={{

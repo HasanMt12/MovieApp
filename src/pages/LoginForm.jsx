@@ -2,7 +2,7 @@
 const LoginForm = () => {
 	return (
 		
-			<form className=" bg-transparent shadow-md rounded px-8 pt-14 pb-8 mb-4">
+			<form className=" bg-transparent shadow-md shadow-gray-500 rounded px-8 pt-14 pb-8 mb-4">
 				<p className="text-4xl  text-orange-300 font-bold font-serif text-center" >Login Now !</p>
         <div className="mb-4 pt-7 ">
           <label className="block text-slate-100 text-xl  mb-2" htmlFor="email">

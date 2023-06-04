@@ -7,9 +7,12 @@
   width: 100%;
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(2, 15, 29, 0.242);
-  z-index: 1000;
+  /* z-index: 1000; */
 }
 
+.z {
+  z-index: 1000;
+}
 
 @media screen and (max-width: 768px) {
   .header .navLogo {
@@ -17,8 +20,13 @@
     height: auto;
   }
 
+  .z {
+    z-index: 1000;
+  }
+
   .header .navBar {
     position: absolute;
+
     background: #12141E;
     height: -webkit-max-content;
     height: -moz-max-content;
@@ -36,7 +44,7 @@
     -moz-transition: 0.4s ease-in-out;
     -ms-transition: 0.4s ease-in-out;
     -o-transition: 0.4s ease-in-out;
-}
+  }
 
   .header .navBar .navLists {
     flex-direction: column;
@@ -97,6 +105,7 @@
 
   .header {
     padding: 1.5rem 2rem;
+
   }
 
   .header .navBar .navLists {
@@ -141,9 +150,8 @@ a {
   text-transform: uppercase;
   transition: all 0.7s ease-in-out;
   position: relative;
-  &::before  
-  
-{
+
+  &::before {
     content: attr(data-item);
     transition: all 1s ease-in-out;
 
