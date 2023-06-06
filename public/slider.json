@@ -1,66 +1,115 @@
 [   
-        {
-            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4E9E81584305009D6385F6178D4B6930E97CD6EC4A3B53C818400DEF778FFA9A/scale?width=1440&aspectRatio=1.78&format=jpeg",
-            "cardImg": "https://i.ibb.co/557y8M3/90f79e1e64ed08c86b22c813b55f7cda.jpg",
-            "description": "Garfield is adopted by a greedy Lord with nefarious plans to open up his estate as a hunting ground.",
-            "subTitle": "2006 • 1h 19m • Family, Comedy, Kids",
-            "title": "A tail of two kitties",
-            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/50B933E83609BEEFEDFA177A6D96DBFA7804C14F70A0B5AB314E892E65498ACF/scale?width=1440&aspectRatio=1.78",
-            "type": "new",
-            "hoverImg": "https://i.ibb.co/gtk2wwJ/garfield-removebg-preview.png"
-            
-        },
        {
-            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4F39B7E16726ECF419DD7C49E011DD95099AA20A962B0B10AA1881A70661CE45/scale?width=1440&aspectRatio=1.78&format=jpeg",
-            "cardImg": "https://i.ibb.co/dPbj93L/7f618aa3425a3aec897fc906b0b5c299.jpg",
-            "description": "A Chinese mom who’s sad when her grown son leaves home gets another chance at motherhood when one of her dumplings springs to life. But she finds that nothing stays cute and small forever.",
-            "subTitle": "2018 • 7m • Family, Fantasy, Kids, Animation",
-            "title": "Bao",
-            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D7AEE1F05D10FC37C873176AAA26F777FC1B71E7A6563F36C6B1B497CAB1CEC2/scale?width=1440&aspectRatio=1.78",
-            "type": "recommend",
-            "hoverImg": "https://i.ibb.co/bQnhYrd/11937bcb2f4184e22f43317b49cf0900-removebg-preview.png"
+            "backgroundImg": "https://i.ibb.co/54QqZGT/uud0.jpg",
+            "cardImg": "https://i.ibb.co/bg2SP5V/163320158513043.jpg",
+            "cardImg2": "https://i.ibb.co/2kvTVCR/download.jpg",
+            "description": "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones'' service, as other friends and foes seek the heart for their own agenda as well.",
+            "subTitle": "  Adventure, Comedy, thriller",
+            "year":"2006",
+            "duration":"1h 19m" , 
+            "country": "United States",
+            "title": "Pirates of the Caribbean - Dead Man's Chest",
+            "titleImg": "https://i.ibb.co/Y88T3wy/cy-removebg-preview.png",
+            "type": "mostView",
+            "url": "https://firebasestorage.googleapis.com/v0/b/cineplanetvdo.appspot.com/o/Pirates%20of%20the%20Caribbean-%20Dead%20Man's%20Chest%20(2006)%20Trailer%20%231%20-%20Movieclips%20Classic%20Trailers.mp4?alt=media&token=8bed1c8f-f001-49cd-a5d4-d3bb5b00a932"
         },
-           {
-            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4E9E81584305009D6385F6178D4B6930E97CD6EC4A3B53C818400DEF778FFA9A/scale?width=1440&aspectRatio=1.78&format=jpeg",
-            "cardImg": "https://i.ibb.co/557y8M3/90f79e1e64ed08c86b22c813b55f7cda.jpg",
-            "description": "Garfield is adopted by a greedy Lord with nefarious plans to open up his estate as a hunting ground.",
-            "subTitle": "2006 • 1h 19m • Family, Comedy, Kids",
-            "title": "A tail of two kitties",
-            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/50B933E83609BEEFEDFA177A6D96DBFA7804C14F70A0B5AB314E892E65498ACF/scale?width=1440&aspectRatio=1.78",
+         {
+            "backgroundImg": "https://i.ibb.co/m4CfD4W/c50.jpg",
+            "cardImg": "https://i.ibb.co/f4bGHr5/e000.jpg",
+            "cardImg2": "https://i.ibb.co/f02Qn9j/r839.jpg",
+            "description": "Titanic, American romantic adventure film, released in 1997, that centres on the sinking of the RMS Titanic. The film proved immensely popular, holding the all-time box-office gross record for more than a decade after its release.",
+            "subTitle": " Drama, Romance,",
+            "year":"1997",
+            "duration":"3h 10m" , 
+            "country": "mostView",
+            "title": "Titanic",
+            "titleImg": "https://i.ibb.co/NCSC8wG/tt29f-removebg-preview.png",
             "type": "new",
-            "hoverImg": "https://i.ibb.co/gtk2wwJ/garfield-removebg-preview.png"
-            
+            "url":"https://firebasestorage.googleapis.com/v0/b/cineplanetvdo.appspot.com/o/movies%2Ftitanic%2FTitanic%20(1997)%20-%20Official%20Trailer.mp4?alt=media&token=0b79e007-79ce-4113-b501-63c277ef6259"
         },
-       {
-            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4F39B7E16726ECF419DD7C49E011DD95099AA20A962B0B10AA1881A70661CE45/scale?width=1440&aspectRatio=1.78&format=jpeg",
-            "cardImg": "https://i.ibb.co/dPbj93L/7f618aa3425a3aec897fc906b0b5c299.jpg",
-            "description": "A Chinese mom who’s sad when her grown son leaves home gets another chance at motherhood when one of her dumplings springs to life. But she finds that nothing stays cute and small forever.",
-            "subTitle": "2018 • 7m • Family, Fantasy, Kids, Animation",
-            "title": "Bao",
-            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D7AEE1F05D10FC37C873176AAA26F777FC1B71E7A6563F36C6B1B497CAB1CEC2/scale?width=1440&aspectRatio=1.78",
-            "type": "recommend",
-            "hoverImg": "https://i.ibb.co/bQnhYrd/11937bcb2f4184e22f43317b49cf0900-removebg-preview.png"
+         {
+            "backgroundImg": "https://i.ibb.co/N3xNSvW/MV5-BZGFm-YWU1-OGUt-Ym-Ux-NS.jpg",
+            "cardImg": "https://i.ibb.co/NYLLQgp/AVENGERS-ENDGAME3.jpg",
+            "cardImg2": "https://i.ibb.co/8j71CNp/PBpaPfD0.jpg",
+            "description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos'' actions and restore balance to the universe.",
+            "subTitle": "  Action, Adventure, Sci-Fi",
+            "year":"2019",
+            "duration":"1h 34m" , 
+            "country": "United States",
+            "title": "Avengers Endgame",
+            "titleImg": "https://i.ibb.co/FVkgqDc/vb5r-preaview-removebg-preview.png",
+            "type": "mostView",
+            "url":"https://firebasestorage.googleapis.com/v0/b/cineplanetvdo.appspot.com/o/movies%2FAvengers%20%3A%20End%20Game%2FMarvel%20Studios'%20Avengers-%20Endgame%20-%20Official%20Trailer.mp4?alt=media&token=b55bd3eb-a060-48d3-9df7-1c62ebe4823a"
         },
-          {
-            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4E9E81584305009D6385F6178D4B6930E97CD6EC4A3B53C818400DEF778FFA9A/scale?width=1440&aspectRatio=1.78&format=jpeg",
-            "cardImg": "https://i.ibb.co/557y8M3/90f79e1e64ed08c86b22c813b55f7cda.jpg",
-            "description": "Garfield is adopted by a greedy Lord with nefarious plans to open up his estate as a hunting ground.",
-            "subTitle": "2006 • 1h 19m • Family, Comedy, Kids",
-            "title": "A tail of two kitties",
-            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/50B933E83609BEEFEDFA177A6D96DBFA7804C14F70A0B5AB314E892E65498ACF/scale?width=1440&aspectRatio=1.78",
-            "type": "new",
-            "hoverImg": "https://i.ibb.co/gtk2wwJ/garfield-removebg-preview.png"
-            
+         {
+            "backgroundImg": "https://i.ibb.co/Cm6sDXZ/the-notebook-chi-blog.jpg",
+            "cardImg": "https://i.ibb.co/VjmXbP4/the-notebook.jpg",
+            "cardImg2": "https://i.ibb.co/w6fh58T/download.jpg",
+            "description": "The original ends with Allie (Gena Rowlands/Rachel McAdams) becoming lucid after Noah (James Garner/Ryan Gosling) reads her the story of their lives. A miracle! Then, they hop into a hospital bed together, hold hands, and die. It's emotionally devastating, and it's exactly what you signed up for.",
+            "subTitle": "Drama, Romance",
+            "year":"2004",
+            "duration":"2h 10m" , 
+            "country": "United States",
+            "title": "The Notebook",
+            "titleImg": "https://i.ibb.co/SwY289H/cfca31f-removebg-preview.png",
+            "type": "mostView",
+            "url":"https://firebasestorage.googleapis.com/v0/b/cineplanetvdo.appspot.com/o/movies%2FAvengers%20%3A%20End%20Game%2FMarvel%20Studios'%20Avengers-%20Endgame%20-%20Official%20Trailer.mp4?alt=media&token=b55bd3eb-a060-48d3-9df7-1c62ebe4823a"
         },
-       {
-            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4F39B7E16726ECF419DD7C49E011DD95099AA20A962B0B10AA1881A70661CE45/scale?width=1440&aspectRatio=1.78&format=jpeg",
-            "cardImg": "https://i.ibb.co/dPbj93L/7f618aa3425a3aec897fc906b0b5c299.jpg",
-            "description": "A Chinese mom who’s sad when her grown son leaves home gets another chance at motherhood when one of her dumplings springs to life. But she finds that nothing stays cute and small forever.",
-            "subTitle": "2018 • 7m • Family, Fantasy, Kids, Animation",
-            "title": "Bao",
-            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D7AEE1F05D10FC37C873176AAA26F777FC1B71E7A6563F36C6B1B497CAB1CEC2/scale?width=1440&aspectRatio=1.78",
-            "type": "recommend",
-            "hoverImg": "https://i.ibb.co/bQnhYrd/11937bcb2f4184e22f43317b49cf0900-removebg-preview.png"
+         {
+            "backgroundImg": "https://i.ibb.co/N3xNSvW/MV5-BZGFm-YWU1-OGUt-Ym-Ux-NS.jpg",
+            "cardImg": "https://i.ibb.co/Fz4fPjX/marvel-black-p450267-hr.jpg",
+            "cardImg2": "https://i.ibb.co/8j71CNp/PBpaPfD0.jpg",
+            "description": "Black Panther is the title held by T'Challa, a member of the royal family of the fictional African country of Wakanda. After the death of his father, T'Challa claimed the throne and the role of Black Panther. He was exposed to a mystical herb that enhanced his strength and agility to near-superhuman levels",
+            "subTitle": "  Action, Adventure, Sci-Fi",
+            "year":"2019",
+            "duration":"1h 34m" , 
+            "country": "USA South Africa",
+            "title": "Black Panther",
+            "titleImg": "https://i.ibb.co/z6Pzv53/eea-removebg-preview.png",
+            "type": "mostView",
+            "url":"https://firebasestorage.googleapis.com/v0/b/cineplanetvdo.appspot.com/o/movies%2FAvengers%20%3A%20End%20Game%2FMarvel%20Studios'%20Avengers-%20Endgame%20-%20Official%20Trailer.mp4?alt=media&token=b55bd3eb-a060-48d3-9df7-1c62ebe4823a"
+        },
+
+         {
+            "backgroundImg": "https://i.ibb.co/zmHZL2c/guardians-of-the-galaxy-vol-2-1556116474.jpg",
+            "cardImg": "https://i.ibb.co/mHLfgtz/Guardians-of-the-Galaxy-film-poster.jpg",
+            "cardImg2": "https://i.ibb.co/ThHKkLF/scale.jpg",
+            "description": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe",
+            "subTitle": "  Action, Adventure, Sci-Fi",
+            "year":"2014",
+            "duration":"2h 05m" , 
+            "country": "mostView",
+            "title": "Guardians Of The Galaxy",
+            "titleImg": "https://i.ibb.co/vPNSTVV/gui-06u-removebg-preview.png",
+            "type": "mostView",
+            "url":"https://firebasestorage.googleapis.com/v0/b/cineplanetvdo.appspot.com/o/Marvel's%20Guardians%20of%20the%20Galaxy%20-%20Trailer%201%20(OFFICIAL).mp4?alt=media&token=35ddf98f-94c8-4a68-a3b5-3bed456fe668"
+        },
+         {
+            "backgroundImg": "https://i.ibb.co/cXzyh9N/scale-1.jpg",
+            "cardImg": "https://i.ibb.co/HqCgYd3/td03fea6f0c4.jpg",
+            "cardImg2": "https://i.ibb.co/ThHKkLF/scale.jpg",
+            "description": "The plot revolves around Dylan Harper (Timberlake) and Jamie Rellis (Kunis), who meet in New York City, and naively believe adding sex to their friendship will not lead to complications. Over time, they begin to develop deep feelings for each other, only to deny it each time they are together.",
+            "subTitle": "romantic, funny",
+            "year":"2011",
+            "duration":"1h 47m" , 
+            "country": "mostView",
+            "title": "Friends With Benefits",
+            "titleImg": "https://i.ibb.co/bFpFjKt/hs-05-removebg-preview-1.png",
+            "type": "mostView",
+            "url":"https://firebasestorage.googleapis.com/v0/b/cineplanetvdo.appspot.com/o/FRIENDS%20WITH%20BENEFITS%20-%20Trailer.mp4?alt=media&token=57ac510d-f717-471d-a657-316191b7e710"
+        },
+         {
+            "backgroundImg": "https://i.ibb.co/dg02mqd/image.jpg",
+            "cardImg": "https://i.ibb.co/2n0YSBk/fter.jpg",
+            "cardImg2": "https://i.ibb.co/xGVp8YF/avatar-the-way-of-water-box-office-day.jpg",
+            "description": "t follows a blue-skinned humanoid Na'vi named Jake Sully (Worthington) as he and his family, under renewed human threat, seek refuge with the aquatic Metkayina clan of Pandora, a habitable exomoon on which they live.",
+            "subTitle": " Action, Adventure, Fantasy,",
+            "year":"2022",
+            "duration":"3h 12m" , 
+            "country": "mostView",
+            "title": "Avatar The Way of Water",
+            "titleImg": "https://i.ibb.co/kgCjkBY/8fe-removebg-preview.png",
+            "type": "mostView",
+            "url":"https://firebasestorage.googleapis.com/v0/b/cineplanetvdo.appspot.com/o/movies%2FAvater%2FAvatar-%20The%20Way%20of%20Water%20(Official%20Trailer)%208K%2060%20FPS_2.mp4?alt=media&token=e68247a7-7e9c-4784-bb85-5b8ff944fe86"
         }
-       
     ] 

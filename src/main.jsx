@@ -10,17 +10,18 @@ import Upcoming from './pages/Upcoming'
 import Recommended from './pages/Recommended'
 import Login from '../src/components/Login/Login'
 import RegistrationForm from './pages/RegistrationForm'
+import MovieDetails from './pages/MovieDetails'
 
 
 
 // Routes 
 const route=createBrowserRouter([
 {
-  path:RoutePath.DASHBOARD,
+  path:'/',
   element:<App/>,
   children:[
     {
-      path:RoutePath.DASHBOARD,
+      path:'/',
       element:<Home/>,
     },
     {
@@ -43,6 +44,13 @@ const route=createBrowserRouter([
     {
       path:RoutePath.REG,
       element:<RegistrationForm/>
+    },
+    {
+      path: '/movies/:id',
+      element:<MovieDetails></MovieDetails>,
+      loader: ({
+        params
+      }) => fetch(`https://movie-server-ashy.vercel.app/movies/${params.id}`)
     }
 
   ]

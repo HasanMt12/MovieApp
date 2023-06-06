@@ -61,7 +61,7 @@ const Hero = () => {
                     <img src={movie.cardImg} className="cover-image" />
                     </div>
 
-                    <img src={movie.hoverImg} className="character" />
+                    <img src={movie.titleImg} className="character" />
                 </div>
               </SwiperSlide>
             ))
