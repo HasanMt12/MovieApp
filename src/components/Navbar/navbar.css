@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #12141E;
+  background: #222831;
   width: 100%;
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(2, 15, 29, 0.242);
@@ -59,13 +59,13 @@
   }
 
   .header .navBar .navLists .navItem .navLink {
-    color: #C11119;
+    color: #00ADB5;
     font-size: 0.9rem;
     font-weight: 600;
   }
 
   .header .navBar .navLists .navItem .navLink:hover {
-    color: whitesmoke;
+    color: #EEEEEE;
   }
 
 
@@ -79,7 +79,7 @@
   }
 
   .header .navBar .closeNavbar:hover {
-    color: whitesmoke;
+    color: #EEEEEE;
   }
 
   .header .activeNavbar {
@@ -89,11 +89,11 @@
 
 .header .toggleNavbar .icon {
   font-size: 25px;
-  color: whitesmoke;
+  color: #00ADB5;
 }
 
 .header .toggleNavbar:hover.icon {
-  color: #C11119;
+  color: #00ADB5;
 }
 
 @media screen and (min-width: 769px) {
@@ -120,14 +120,14 @@
   }
 
   .header .navBar .navLists .navItem .navLink {
-    color: #C11119;
+    color: #00ADB5;
     padding: 0 0.45rem;
     font-size: 0.9rem;
     font-weight: 500;
   }
 
   .header .navBar .navLists .navItem .navLink:hover {
-    color: whitesmoke;
+    color: #EEEEEE;
   }
 
 }

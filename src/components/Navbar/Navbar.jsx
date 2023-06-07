@@ -10,7 +10,7 @@ import * as RoutePath from '../../routes/route'
 import "./navbar.css";
 
 import { Link } from "react-router-dom";
-
+import logo from "../../../public/logo4.png"
 const Navbar = () => {
   const [active, setActive] = useState("navBar");
   
@@ -35,7 +35,7 @@ const Navbar = () => {
       <header className = "header #12141E drop-shadow-lg  shadow-gray-400" >
         <div className="">
           <Link to={RoutePath.DASHBOARD } href=""className = "tracking-[2px] text-[#c11253]" >
-         <span className="lg:text-4xl text-2xl ">C</span>ineflex
+         <img src={logo}></img>
          
           </Link >
         </div>
